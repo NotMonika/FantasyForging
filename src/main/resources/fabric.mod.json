@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "fantasy_forging",
+  "version": "1.0.0",
+  "name": "Fantasy Forging",
+  "authors": [
+    "monika, MCreator"
+  ],
+  "contact": {
+    "homepage": "https://mcreator.net",
+    "sources": ""
+  },
+  "license": "GNU General Public License version 3 (GPLv3)",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "rip.sayori.fantasyforging.FantasyForgingMod"
+    ],
+    "client": [
+      "rip.sayori.fantasyforging.ClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "fabric": "*",
+    "minecraft": "~1.20",
+    "java": ">=17"
+  }
+}
